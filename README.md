@@ -1,5 +1,4 @@
 # Developer Community project
---------------------------------------------------
 
 ## _Development Environment_
 
