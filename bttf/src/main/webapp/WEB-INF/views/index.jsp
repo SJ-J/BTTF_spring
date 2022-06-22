@@ -75,228 +75,10 @@
         </div>
     </div>
     <!--========== SLIDER ==========-->
-
-    <!--========== PAGE LAYOUT ==========-->
-    <!-- Service -->
-    <div class="bg-color-sky-light" data-auto-height="true">
-    	<div class="content-lg container" style="margin-top : 50px;">
-        	<div class="row row-space-1 margin-b-2">
-            	<div class="col-sm-4 sm-margin-b-2">
-                	<div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                        <div class="service" data-height="height">
-                            <div class="service-element">
-                                <i class="service-icon fab fa-html5"></i>
-                            </div>
-                            <div class="service-info">
-                                <h3>HTML5</h3>
-                                <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiatdolor</p>
-                                <a class="link" href="/board/htmllist">Read More</a>
-                            </div>
-                            <a href="/board/htmllist" class="content-wrapper-link"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 sm-margin-b-2">
-                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                        <div class="service" data-height="height">
-                            <div class="service-element">
-                                <i class="service-icon fab fa-css3-alt"></i>
-                            </div>
-                            <div class="service-info">
-                                <h3>CSS3</h3>
-                                <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                <a class="link" href="/board/csslist">Read More</a>
-                            </div>
-                            <a href="/board/csslist" class="content-wrapper-link"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 sm-margin-b-2">
-                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".2s">
-                        <div class="service" data-height="height">
-                            <div class="service-element">
-                                <i class="service-icon fab fa-js"></i>
-                            </div>
-                            <div class="service-info">
-                                <h3>JAVASCRIPT</h3>
-                                <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                <a class="link" href="/board/jslist">Read More</a>
-                            </div>
-                            <a href="/board/jslist" class="content-wrapper-link"></a>
-                        </div>
-                    </div>
-                </div>
-                <!--// end row -->
-                <div class="row row-space-1">
-	                <div class="col-sm-4 sm-margin-b-2">
-	                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".4s">
-	                        <div class="service" data-height="height">
-	                            <div class="service-element">
-	                                <i class="service-icon fab fa-java"></i>
-	                            </div>
-	                            <div class="service-info">
-	                                <h3>JAVA</h3>
-	                                <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-	                                <a class="link" href="#">Read More</a>
-	                            </div>
-	                            <a href="/board/javalist" class="content-wrapper-link"></a>
-	                        </div>
-	                    </div>
-	                </div>
-	                <div class="col-sm-4 sm-margin-b-2">
-	                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
-	                        <div class="service" data-height="height">
-	                            <div class="service-element">
-	                                <i class="service-icon service-icon fab fa-java"></i>
-	                            </div>
-	                            <div class="service-info">
-	                                <h3>JSP</h3>
-	                                <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-	                                <a class="link" href="/board/jsplist">Read More</a>
-	                            </div>
-	                            <a href="/board/jsplist" class="content-wrapper-link"></a>
-	                        </div>
-	                    </div>
-	                </div>
-	                <div class="col-sm-4 sm-margin-b-2">
-	                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
-	                        <div class="service" data-height="height">
-	                            <div class="service-element">
-	                                <i class="service-icon fas fa-database"></i>
-	                            </div>
-	                            <div class="service-info">
-	                                <h3>ORACLE</h3>
-	                                <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-	                                <a class="link" href="/board/oraclelist">Read More</a>
-	                            </div>
-	                            <a href="/board/oraclelist" class="content-wrapper-link"></a>
-	                        </div>
-	                    </div>
-	                </div>
-	                <div class="col-sm-4">
-	                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".6s">
-	                        <div class="service" data-height="height">
-	                            <div class="service-element">
-	                                <i class="service-icon fas fa-leaf"></i>
-	                            </div>
-	                            <div class="service-info">
-	                                <h3>SPRING</h3>
-	                                <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-	                                <a class="link" href="/board/springlist">Read More</a>
-	                            </div>
-	                            <a href="/board/springlist" class="content-wrapper-link"></a>
-	                        </div>
-	                    </div>
-	                </div>
-	            </div>
-	            <!--// end row -->
-	        </div>
-	    </div>
-    </div>
-   
-    <div class="content-lg container">
-        <div class="row margin-b-40">
-            <div class="col-sm-6">
-                <h2>Homebrew Crew</h2>
-                <p>Homebrew 커뮤니티를 만든 크루원을 소개합니다</p>
-            </div>
-        </div>
-        <!--// end row -->
-
-        <div class="row">
-            <!-- Latest Products -->
-            <div class="col-sm-4 sm-margin-b-50 mt-4">
-                <div class="margin-b-20">
-                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                        <img class="img-responsive" src="../../resources/img/970x647/01.jpg" alt="Latest Products Image">
-                    </div>
-                </div>
-                <h4><a>박지율</a> <span class="text-uppercase margin-l-20">리더</span></h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut
-                    consequat siad esqudiat dolor</p>
-            </div>
-            <!-- End Latest Products -->
-
-            <!-- Latest Products -->
-            <div class="col-sm-4 sm-margin-b-50 mt-4">
-                <div class="margin-b-20">
-                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                        <img class="img-responsive" src="../../resources/img/970x647/content_sub2.png" alt="Latest Products Image">
-                    </div>
-                </div>
-                <h4><a>이초록</a> <span class="text-uppercase margin-l-20">부 리더</span></h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut
-                    consequat siad esqudiat dolor</p>
-            </div>
-            <!-- End Latest Products -->
-
-            <!-- Latest Products -->
-            <div class="col-sm-4 sm-margin-b-50 mt-4">
-                <div class="margin-b-20">
-                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                        <img class="img-responsive" src="../../resources/img/970x647/03.jpg" alt="Latest Products Image">
-                    </div>
-                </div>
-                <h4><a>조선익</a> <span class="text-uppercase margin-l-20">크루원</span></h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut
-                    consequat siad esqudiat dolor</p>
-            </div>
-            <!-- End Latest Products -->
-        </div>
-        <!--// end row -->
-        <div class="row">
-            <!-- Latest Products -->
-            <div class="col-sm-4 sm-margin-b-50 mt-4">
-                <div class="margin-b-20">
-                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                        <img class="img-responsive" src="../../resources/img/970x647/01.jpg" alt="Latest Products Image">
-                    </div>
-                </div>
-                <h4><a>주수진</a> <span class="text-uppercase margin-l-20">크루원</span></h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut
-                    consequat siad esqudiat dolor</p>
-            </div>
-            <!-- End Latest Products -->
-
-            <!-- Latest Products -->
-            <div class="col-sm-4 sm-margin-b-50 mt-4">
-                <div class="margin-b-20">
-                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                        <img class="img-responsive" src="../../resources/img/970x647/02.jpg" alt="Latest Products Image">
-                    </div>
-                </div>
-                <h4><a>정진형</a> <span class="text-uppercase margin-l-20">크루원</span></h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut
-                    consequat siad esqudiat dolor</p>
-            </div>
-            <!-- End Latest Products -->
-            <div class="col-sm-4 sm-margin-b-50 mt-4">
-                <div class="margin-b-20">
-                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                        <img class="img-responsive" src="../../resources/img/970x647/03.jpg" alt="Latest Products Image">
-                    </div>
-                </div>
-                <h4><a>김선경</a> <span class="text-uppercase margin-l-20">크루원</span></h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut
-                    consequat siad esqudiat dolor</p>
-            </div>
-            <!-- End Latest Products -->
-            <!-- Latest Products -->
-            <div class="col-sm-4 sm-margin-b-50 mt-4">
-                <div class="margin-b-20">
-                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                        <img class="img-responsive" src="../../resources/img/970x647/02.jpg" alt="Latest Products Image">
-                    </div>
-                </div>
-                <h4><a>이다인</a> <span class="text-uppercase margin-l-20">크루원</span></h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut
-                    consequat siad esqudiat dolor</p>
-            </div>
-            <!-- End Latest Products -->
-        </div>
-        <!--// end row -->
-    </div>
-    <!--========== END PAGE LAYOUT ==========-->
+    
+    
+    
+        <!--========== NOTICE ==========-->
 	<div class="bg-color-sky-light fixed_container" data-auto-height="true">
     	<div class="content-lg container" style="margin-top : 50px;">
         	<div class="row row-space-1 margin-b-2">
@@ -337,11 +119,134 @@
                     </tbody>
                 </table>
             </div>
-            <!-- End notice -->
+            <!-- End NOTICE -->
                
 	        </div>
 	    </div>
     </div>
+    
+    
+    
+
+    <!--========== PAGE LAYOUT ==========-->
+    <!-- Service -->
+    <div class="bg-color-sky-light" data-auto-height="true">
+    	<div class="content-lg container" style="margin-top : 50px;">
+        	<div class="row row-space-1 margin-b-2">
+            	<div class="col-sm-4 sm-margin-b-2">
+                	<div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                        <div class="service" data-height="height">
+                            <div class="service-element">
+                                <i class="service-icon fab fa-html5"></i>
+                            </div>
+                            <div class="service-info">
+                                <h3>HTML5</h3>
+                                <!-- <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiatdolor</p> -->
+                                <a class="link" href="/board/htmllist">Read More</a>
+                            </div>
+                            <a href="/board/htmllist" class="content-wrapper-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 sm-margin-b-2">
+                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                        <div class="service" data-height="height">
+                            <div class="service-element">
+                                <i class="service-icon fab fa-css3-alt"></i>
+                            </div>
+                            <div class="service-info">
+                                <h3>CSS3</h3>
+                                <!-- <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p> -->
+                                <a class="link" href="/board/csslist">Read More</a>
+                            </div>
+                            <a href="/board/csslist" class="content-wrapper-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 sm-margin-b-2">
+                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".2s">
+                        <div class="service" data-height="height">
+                            <div class="service-element">
+                                <i class="service-icon fab fa-js"></i>
+                            </div>
+                            <div class="service-info">
+                                <h3>JAVASCRIPT</h3>
+                                <!-- <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p> -->
+                                <a class="link" href="/board/jslist">Read More</a>
+                            </div>
+                            <a href="/board/jslist" class="content-wrapper-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <!--// end row -->
+                <div class="row row-space-1">
+	                <div class="col-sm-4 sm-margin-b-2">
+	                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".4s">
+	                        <div class="service" data-height="height">
+	                            <div class="service-element">
+	                                <i class="service-icon fab fa-java"></i>
+	                            </div>
+	                            <div class="service-info">
+	                                <h3>JAVA</h3>
+	                                <!-- <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p> -->
+	                                <a class="link" href="#">Read More</a>
+	                            </div>
+	                            <a href="/board/javalist" class="content-wrapper-link"></a>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="col-sm-4 sm-margin-b-2">
+	                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
+	                        <div class="service" data-height="height">
+	                            <div class="service-element">
+	                                <i class="service-icon service-icon fab fa-java"></i>
+	                            </div>
+	                            <div class="service-info">
+	                                <h3>JSP</h3>
+	                                <!-- <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p> -->
+	                                <a class="link" href="/board/jsplist">Read More</a>
+	                            </div>
+	                            <a href="/board/jsplist" class="content-wrapper-link"></a>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="col-sm-4 sm-margin-b-2">
+	                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
+	                        <div class="service" data-height="height">
+	                            <div class="service-element">
+	                                <i class="service-icon fas fa-database"></i>
+	                            </div>
+	                            <div class="service-info">
+	                                <h3>ORACLE</h3>
+	                                <!-- <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p> -->
+	                                <a class="link" href="/board/oraclelist">Read More</a>
+	                            </div>
+	                            <a href="/board/oraclelist" class="content-wrapper-link"></a>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="col-sm-4">
+	                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".6s">
+	                        <div class="service" data-height="height">
+	                            <div class="service-element">
+	                                <i class="service-icon fas fa-leaf"></i>
+	                            </div>
+	                            <div class="service-info">
+	                                <h3>SPRING</h3>
+	                                <!-- <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p> -->
+	                                <a class="link" href="/board/springlist">Read More</a>
+	                            </div>
+	                            <a href="/board/springlist" class="content-wrapper-link"></a>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	            <!--// end row -->
+	        </div>
+	    </div>
+    </div>
+   
+
     <!--========== FOOTER ==========-->
     <footer class="footer fixed_footer">
 
