@@ -5,14 +5,14 @@
 //var user_index = '<c:out value="${member.user_index }"/>'
 	
 function confirm_joinout() {
-	if (confirm('정말로 탈퇴하시겠습니까?')) {
+	if (confirm('정말로 계정을 삭제하시겠습니까?')) {
 	
 		location.href="/member/joinout";
 		
 	} else {
 		
-		alert('탈퇴를 취소하셨습니다!');
-		location.href="/";
+		alert('계정 삭제를 취소합니다.');
+		location.href="/member/mypage_?user_index=${member.user_index }";
 		
 	}
 }

@@ -175,10 +175,11 @@
 			                        <table id="foo-table" class="table table-striped">
 			                            <thead>
 			                                <tr>
-			                                    <th>회원이름</th>
-			                                    <th>휴대폰번호</th>
-			                                    <th>가입일자</th>
-			                                    <th>계정관리</th>
+			                                    <th>메일</th>
+			                                    <th>이름</th>
+			                                    <th>휴대폰 번호</th>
+			                                    <th>가입 일자</th>
+			                                    <th>계정 관리</th>
 			                                </tr>
 			                            </thead>
 			                            <tbody>
@@ -186,6 +187,11 @@
 			                                <c:when test="${memberblock != null and fn:length(memberblock) > 0 }">
 			                                    <c:forEach var="userBlockedList" items="${memberblock}">
 			                                        <tr>
+			                                            <td>
+			                                                <p>
+			                                                    ${userBlockedList.user_email }
+			                                                </p>
+			                                            </td>
 			                                            <td>
 			                                                <p>
 			                                                    ${userBlockedList.user_name }
