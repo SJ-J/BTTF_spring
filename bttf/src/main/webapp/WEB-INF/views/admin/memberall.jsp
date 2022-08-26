@@ -96,10 +96,10 @@
                                         <table id="foo-table" class="table table-striped">
                                             <thead>
                                                 <tr>
-                                                    <th>회원이름</th>
-                                                    <th>휴대폰번호</th>
-                                                    <th>가입일자</th>
-                                                    <th>계정관리</th>
+                                                    <th>이메일</th>
+                                                    <th>휴대폰 번호</th>
+                                                    <th>가입 일자</th>
+                                                    <th>계정 관리</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -109,7 +109,7 @@
                                                             <tr>
                                                                 <td>
                                                                     <p>
-                                                                        ${UserAll.user_name }
+                                                                        ${UserAll.user_email }
                                                                     </p>
                                                                 </td>
                                                                 <td>

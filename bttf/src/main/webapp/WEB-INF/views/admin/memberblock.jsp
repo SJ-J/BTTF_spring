@@ -87,10 +87,11 @@
                         <table id="foo-table" class="table table-striped">
                             <thead>
                                 <tr>
-                                    <th style="width: 30%;">회원이름</th>
-                                    <th style="width: 20%;">휴대폰번호</th>
-                                    <th style="width: 30%;">가입일자</th>
-                                    <th style="width: 20%;">계정관리</th>
+                                    <th style="width: 20%;">메일</th>
+                                    <th style="width: 10%;">이름</th>
+                                    <th style="width: 20%;">휴대폰 번호</th>
+                                    <th style="width: 30%;">가입 일자</th>
+                                    <th style="width: 20%;">계정 관리</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -98,6 +99,11 @@
                                 <c:when test="${memberblock != null and fn:length(memberblock) > 0 }">
                                     <c:forEach var="userBlockedList" items="${memberblock}">
                                         <tr>
+                                            <td>
+                                                <p>
+                                                    ${userBlockedList.user_email }
+                                                </p>
+                                            </td>
                                             <td>
                                                 <p>
                                                     ${userBlockedList.user_name }
