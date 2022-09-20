@@ -116,8 +116,9 @@
                                         <option value="html" <c:if test="${member.main_language eq 'html'}">selected</c:if>>HTML5</option>
                                     </select>
                                 </div>
-                                <input class="btn btn-primary mt-5" type="submit" onclick="sendit()" value ="수정완료">
-                                <input class="btn btn-danger mt-5" value ="탈퇴하기" onclick="confirm_joinout()" type="button">
+                                <input class="btn btn-primary mt-5" type="submit" onclick="sendit()" value ="수정하기">
+                                <a href="/member/mypage?user_index=${member.user_index }" class="btn btn-default mt-5" >뒤로가기</a>
+                                <input class="btn btn-danger mt-5" value ="계정삭제" onclick="confirm_joinout()" type="button">
                             </form>
                         </div>
                     </div>
