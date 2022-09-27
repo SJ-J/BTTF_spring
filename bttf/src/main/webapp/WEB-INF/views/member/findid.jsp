@@ -110,12 +110,12 @@ body {
                 <div class="card-body">
                     <form action="/member/findid_ok" class="form-signin" name="findid" method="POST">
                         <input type="text" name="user_name" id="user_name" class="form-control" placeholder="이름" style="margin-bottom : 48px; border-radius:10px; height : 55px; " autofocus required>
-                        <input type="tel" name="user_phone" id="user_phone" class="form-control" oninput="autoHyphen(this)" maxlength="13" style="border-radius:10px; height : 55px; margin-bottom : 48px;" placeholder="핸드폰번호" required>
-                        <input id="btn-Yes" class="btn btn-lg btn-primary btn-block" type="submit" style="line-height:28px !important; margin-bottom: 20px;" value="이메일찾기" >
+                        <input type="tel" name="user_phone" id="user_phone" class="form-control" oninput="autoHyphen(this)" maxlength="13" style="border-radius:10px; height : 55px; margin-bottom : 48px;" placeholder="핸드폰 번호" required>
+                        <input id="btn-Yes" class="btn btn-lg btn-primary btn-block" type="submit" style="line-height:28px !important; margin-bottom: 20px;" value="이메일 찾기" >
                     </form>
                 </div>
                 <div class="links" style="padding: 10px 20px;">
-                    <a href="/member/findpw">비밀번호 찾기</a> | <a href="/member/signin"">로그인</a> | <a href="/member/signup">회원가입</a>
+                    <a href="/member/findpw">비밀번호 찾기</a> | <a href="/member/signin">로그인</a> | <a href="/member/signup">회원가입</a>
                 </div>
             </div>
         </div>

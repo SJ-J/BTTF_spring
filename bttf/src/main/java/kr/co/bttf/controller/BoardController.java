@@ -282,9 +282,10 @@ public class BoardController {
 				memberService.memberreport(map);						
 				htmlService.htmlcategory2(post_id);
 				memberService.memcategory2(user_index);
-				ScriptUtils.alertAndMovePage(response, "신고가 접수되었습니다. 메인화면으로 이동합니다.","http://localhost:9090/");
+//				ScriptUtils.alertAndMovePage(response, "신고가 접수되었습니다. 메인화면으로 이동합니다.","http://localhost:9090/");
+				ScriptUtils.alertAndMovePage(response, "신고가 접수되었습니다.","http://localhost:9090/board/oraclelist");
 			}else {
-				ScriptUtils.alertAndMovePage(response, "이미 신고된 회원입니다.","http://localhost:9090/");
+				ScriptUtils.alertAndMovePage(response, "이미 신고된 회원입니다.","http://localhost:9090/board/oraclelist");
 			}
 		}
 	}	
@@ -546,9 +547,9 @@ public class BoardController {
 				memberService.memberreport(map);						
 				cssService.csscategory2(post_id);
 				memberService.memcategory2(user_index);
-				ScriptUtils.alertAndMovePage(response, "신고가 접수되었습니다. 메인화면으로 이동합니다.","http://localhost:9090/");
+				ScriptUtils.alertAndMovePage(response, "신고가 접수되었습니다.","http://localhost:9090/board/oraclelist");
 			}else {
-				ScriptUtils.alertAndMovePage(response, "이미 신고된 회원입니다.","http://localhost:9090/");
+				ScriptUtils.alertAndMovePage(response, "이미 신고된 회원입니다.","http://localhost:9090/board/oraclelist");
 			}
 		}
 	}
@@ -836,9 +837,9 @@ public class BoardController {
 					memberService.memberreport(map);						
 					jsService.jscategory2(post_id);
 					memberService.memcategory2(user_index);
-					ScriptUtils.alertAndMovePage(response, "신고가 접수되었습니다. 메인화면으로 이동합니다.","http://localhost:9090/");
+					ScriptUtils.alertAndMovePage(response, "신고가 접수되었습니다.","http://localhost:9090/board/oraclelist");
 				}else {
-					ScriptUtils.alertAndMovePage(response, "이미 신고된 회원입니다.","http://localhost:9090/");
+					ScriptUtils.alertAndMovePage(response, "이미 신고된 회원입니다.","http://localhost:9090/board/oraclelist");
 				}
 			}
 		}
@@ -1091,9 +1092,9 @@ public class BoardController {
 				memberService.memberreport(map);						
 				jspService.jspcategory2(post_id);
 				memberService.memcategory2(user_index);
-				ScriptUtils.alertAndMovePage(response, "신고가 접수되었습니다. 메인화면으로 이동합니다.","http://localhost:9090/");
+				ScriptUtils.alertAndMovePage(response, "신고가 접수되었습니다.","http://localhost:9090/board/oraclelist");
 			}else {
-				ScriptUtils.alertAndMovePage(response, "이미 신고된 회원입니다.","http://localhost:9090/");
+				ScriptUtils.alertAndMovePage(response, "이미 신고된 회원입니다.","http://localhost:9090/board/oraclelist");
 			}
 		}
 	}
@@ -1346,9 +1347,9 @@ public class BoardController {
 				memberService.memberreport(map);						
 				javaService.javacategory2(post_id);
 				memberService.memcategory2(user_index);
-				ScriptUtils.alertAndMovePage(response, "신고가 접수되었습니다. 메인화면으로 이동합니다.","http://localhost:9090/");
+				ScriptUtils.alertAndMovePage(response, "신고가 접수되었습니다.","http://localhost:9090/board/oraclelist");
 			}else {
-				ScriptUtils.alertAndMovePage(response, "이미 신고된 회원입니다.","http://localhost:9090/");
+				ScriptUtils.alertAndMovePage(response, "이미 신고된 회원입니다.","http://localhost:9090/board/oraclelist");
 			}
 		}
 	}
@@ -1604,9 +1605,9 @@ public class BoardController {
 				memberService.memberreport(map);						
 				oracleService.oraclecategory2(post_id);
 				memberService.memcategory2(user_index);
-				ScriptUtils.alertAndMovePage(response, "신고가 접수되었습니다. 메인화면으로 이동합니다.","http://localhost:9090/");
+				ScriptUtils.alertAndMovePage(response, "신고가 접수되었습니다.","http://localhost:9090/board/oraclelist");
 			}else {
-				ScriptUtils.alertAndMovePage(response, "이미 신고된 회원입니다.","http://localhost:9090/");
+				ScriptUtils.alertAndMovePage(response, "이미 신고된 회원입니다.","http://localhost:9090/board/oraclelist");
 			}
 		}
 	}
@@ -1860,9 +1861,9 @@ public class BoardController {
 				memberService.memberreport(map);
 				springService.springcategory2(post_id);
 				memberService.memcategory2(user_index);
-				ScriptUtils.alertAndMovePage(response, "신고가 접수되었습니다. 메인화면으로 이동합니다.", "http://localhost:9090/");
-			} else {
-				ScriptUtils.alertAndMovePage(response, "이미 신고된 회원입니다.", "http://localhost:9090/");
+				ScriptUtils.alertAndMovePage(response, "신고가 접수되었습니다.","http://localhost:9090/board/oraclelist");
+			}else {
+				ScriptUtils.alertAndMovePage(response, "이미 신고된 회원입니다.","http://localhost:9090/board/oraclelist");
 			}
 		}
 	}

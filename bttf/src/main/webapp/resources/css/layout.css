@@ -1273,6 +1273,7 @@ fieldset[disabled] .btn-theme {
 ------------------------------------------------------------------*/
 .container-full-width {
   width: 100%;
+  height: 450px;
 }
 
 .container-full-width:before, .container-full-width:after {
