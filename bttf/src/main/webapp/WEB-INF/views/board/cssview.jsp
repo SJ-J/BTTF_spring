@@ -108,7 +108,8 @@
                               <div class="mb-5">
                            <c:if test="${member.user_nickname eq cssview.user_nickname}">
                                     <a href="/board/cssmodify?post_id=${cssview.post_id }" class="btn btn-primary mt-4" id="list" type="submit">글수정</a>                          
-                                  <a href="/board/cssdelete?post_id=${cssview.post_id }&mypage=" class="btn btn-danger mt-4" id="list" type="submit">글삭제</a>
+                                 	<!-- <a href="/board/cssdelete?post_id=${cssview.post_id }&mypage=" class="btn btn-danger mt-4" id="list" type="submit">글삭제</a> -->
+                                 	<a class="btn btn-danger mt-4" id="list" type="submit" onclick="confirm_delete()">글삭제</a>
                            </c:if> 
                                  <a href="/board/csslist" class="btn btn-default mt-4" id="edit" type="submit">글 목록</a>
                            <c:if test="${member.user_nickname != cssview.user_nickname && member != null && cssview.user_nickname != 'admin'}">
@@ -294,6 +295,19 @@
     
 
       <script>
+      
+    function confirm_delete() {
+  		if (confirm('게시글이 삭제됩니다')) {
+
+  			location.href="/board/cssdelete?post_id=${cssview.post_id }&mypage="
+  			
+  		} else {
+  			
+  		}
+    }
+    
+    
+    
    function all_reset(){
       document.replyForm.reset();
    }

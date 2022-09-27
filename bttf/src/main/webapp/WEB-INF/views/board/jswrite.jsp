@@ -92,7 +92,7 @@
 									<c:if test="${member != null }">
 										<button type="submit" class="btn btn-info mt-4" id="writesuccess">작성완료</button>
 									</c:if>
-										<a class="btn btn-primary mt-4" id="list" onclick="confirm_backlist()">목록</a>
+										<a class="btn btn-primary mt-4" id="list" onclick="confirm_backlist_js()">목록</a>
 							</form>
 							<!-- End write Form -->
 							

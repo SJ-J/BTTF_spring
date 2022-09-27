@@ -39,6 +39,7 @@
 
     <!-- c3 chart -->
     <link href="../../../resources/vendor/c3-0.7.20/c3.css" rel="stylesheet">
+    <script src="../../../resources/js/confirm.js" type="text/javascript"></script>
     <style>
 .ck-blurred .ck .ck-content .ck-editor__editable .ck-rounded-corners .ck-editor__editable_inline h1
 	{
@@ -86,7 +87,8 @@
 									style="height: 650px; resize: none;">${htmlview.post_contents }</textarea>
                                 </div> 
                             <a href="javascript:document.htmlmodify.submit()" class="btn btn-info mt-4" id="writesuccess">작성완료</a>
-                        	<a href="${pageContext.request.contextPath }/board/htmllist" class="btn btn-default mt-4" id="edit" type="submit">글 목록</a>
+                        	<!-- <a href="${pageContext.request.contextPath }/board/htmllist" class="btn btn-default mt-4" id="edit" type="submit">글 목록</a> -->
+                        	<a class="btn btn-primary mt-4" id="list" onclick="confirm_backlist_html()">목록</a>
                             </form>
                             <!-- End write Form -->
                         </div>
