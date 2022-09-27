@@ -17,10 +17,41 @@ function confirm_joinout() {
 	}
 }
 
-function confirm_backlist() {
-	if (confirm('작성 중인 게시글이 삭제됩니다')) {
+// 목록으로 돌아가기
+function confirm_backlist_html() {
+	if (confirm('작성 중인 게시글이 삭제됩니다')) { location.href="/board/htmllist"; } else { }
+}
 
-		location.href="/board/csslist";
+function confirm_backlist_css() {
+	if (confirm('작성 중인 게시글이 삭제됩니다')) { location.href="/board/csslist"; } else { }
+}
+
+function confirm_backlist_js() {
+	if (confirm('작성 중인 게시글이 삭제됩니다')) { location.href="/board/jslist"; } else { }
+}
+
+function confirm_backlist_jsp() {
+	if (confirm('작성 중인 게시글이 삭제됩니다')) { location.href="/board/jsplist"; } else { }
+}
+
+function confirm_backlist_java() {
+	if (confirm('작성 중인 게시글이 삭제됩니다')) { location.href="/board/javalist"; } else { }
+}
+
+function confirm_backlist_oracle() {
+	if (confirm('작성 중인 게시글이 삭제됩니다')) { location.href="/board/oraclelist"; } else { }
+}
+
+function confirm_backlist_spring() {
+	if (confirm('작성 중인 게시글이 삭제됩니다')) { location.href="/board/springlist"; } else { }
+}
+
+
+
+function confirm_delete() {
+	if (confirm('게시글이 삭제됩니다')) {
+
+		location.href="/board/cssdelete?post_id=${cssview.post_id }&mypage="
 		
 	} else {
 		
